@@ -1,0 +1,23 @@
+{
+    "name": "rizalafani/fpdflaravel",
+    "description": "FPDF Laravel 5",
+    "keywords": [
+        "fpdf", "laravel", "print", "report", "pdf"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Ahmad Rizal Afani",
+            "email": "ahmadrizalafani@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"rizalafani\\fpdflaravel\\": "src/"
+    	}
+    },
+    "require": {
+    	"illuminate/support": "~5"
+    }
+}
