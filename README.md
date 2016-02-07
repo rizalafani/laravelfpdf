@@ -37,10 +37,10 @@ Selanjutnya, tambahkan alias ke `config/app.php`, pada array `aliases`.
 ```php
 Route::get('pdf', function(){
 
-        Fpdf::AddPage();
-        Fpdf::SetFont('Arial','B',16);
-        Fpdf::Cell(40,10,'Hello World!');
-        Fpdf::Output();
+        FPDF::AddPage();
+        FPDF::SetFont('Arial','B',16);
+        FPDF::Cell(40,10,'Hello World!');
+        FPDF::Output();
         exit;
 
 });
